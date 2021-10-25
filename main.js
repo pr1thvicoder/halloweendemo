@@ -29,11 +29,26 @@ navLink.forEach((n) => n.addEventListener('click', linkAction));
 
 // swiper
 
-var homeSwiper = new Swiper('.home-swiper', {
+let homeSwiper = new Swiper('.home-swiper', {
 	spaceBetween : 30,
 	loop         : 'true',
 
 	pagination   : {
+		el        : '.swiper-pagination',
+		clickable : true
+	}
+});
+
+// new swiper
+
+
+let newSwiper = new Swiper('.new-swiper', {
+	centeredSlides : true,
+	slidePerView   : 'auto',
+	spaceBetween   : 16,
+	loop           : 'true',
+
+	pagination     : {
 		el        : '.swiper-pagination',
 		clickable : true
 	}
