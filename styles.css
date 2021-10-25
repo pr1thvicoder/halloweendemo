@@ -477,4 +477,37 @@ button {
 .trick__content:focus .trick__button {
   right: 0;
 }
+
+
+.discount {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.discount__container {
+  background: var(--container-color);
+  border-radius: 1rem;
+  padding: 2.5rem 0 1.5rem;
+  row-gap: .75rem;
+  width: 70%;
+}
+
+.discount__data {
+  text-align: center;
+}
+
+.discount__title {
+  font-size: var(--h2-font-size);
+  margin-bottom: var(--mb-2);
+}
+
+.discount__img {
+  width: 200px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
 /*# sourceMappingURL=index.css.map */
