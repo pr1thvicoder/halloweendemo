@@ -513,6 +513,8 @@ button {
 
 .new__container {
 	padding-top: 1rem;
+	display: flex;
+	justify-content: center;
 }
 
 .new__img {
